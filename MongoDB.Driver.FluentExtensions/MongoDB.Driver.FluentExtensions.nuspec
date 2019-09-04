@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<package>
+    <metadata>
+        <id>MongoDB.Driver.FluentExtensions</id>
+        <version>0.1.0</version>
+        <title>Fluent extensions for MongoDB.Driver</title>
+        <authors>ReallyLiri</authors>
+        <projectUrl>https://github.com/ReallyLiri/MongoDB.Driver.FluentExtensions</projectUrl>
+        <description>Fluent extensions for MongoDB.Driver</description>
+        <tags>mongo mongodb mongodb.driver</tags>
+        <dependencies>
+            <dependency id="MongoDB.Driver" version="2.9.1" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Attributes\**" />
+        <file src="FluentExtensions.cs" />
+    </files>
+</package>
